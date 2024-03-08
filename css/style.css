@@ -1,0 +1,22 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+#main_box{
+    height: 100vh;
+    
+}
+#main_box h1{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.card{
+    border-radius: 15px;
+    
+}
+#add_box{
+    height: 20rem;
+}
