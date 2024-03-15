@@ -1,22 +1,33 @@
-/* *{
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Josefin+Sans:ital,wght@0,700;1,700&display=swap');
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 
 #main_box{
     height: 100vh;
-    
+    background-color: lightgray;
 }
-#main_box h1{
-    border: 1px solid black;
-    border-radius: 10px;
+
+#main_box h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 770;
+    font-style: normal;
+    margin: 10px;
+
 }
-.card{
-    border-radius: 15px;
-    
-}
-#add_box{
-    height: 20rem;
+
+#timer h1 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 10px;
+    color: red;
 }
